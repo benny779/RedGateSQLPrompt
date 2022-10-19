@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "id": "b661c0e8-5de4-4143-b17a-d1e780748692",
+    "name": "Benny"
+  },
+  "whitespace": {
+    "spacesOrTabs": "tabs",
+    "wrapLinesLongerThan": 135,
+    "newLines": {
+      "preserveExistingEmptyLinesAfterBatchSeparator": false
+    }
+  },
+  "lists": {
+    "placeSubsequentItemsOnNewLines": "ifLongerThanMaxLineLength",
+    "alignItemsAcrossClauses": false,
+    "indentListItems": false,
+    "alignComments": true,
+    "addSpaceAfterComma": false,
+    "commaAlignment": "toStatement"
+  },
+  "parentheses": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentParenthesesContents": true,
+    "collapseShortParenthesisContents": true,
+    "collapseParenthesesShorterThan": 35
+  },
+  "casing": {
+    "reservedKeywords": "uppercase",
+    "builtInFunctions": "uppercase",
+    "builtInDataTypes": "lowercase",
+    "globalVariables": "uppercase",
+    "useObjectDefinitionCase": true
+  },
+  "dml": {
+    "collapseStatementsShorterThan": 75,
+    "collapseShortSubqueries": true,
+    "collapseSubqueriesShorterThan": 75
+  },
+  "ddl": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentParenthesesContents": true,
+    "alignDataTypesAndConstraints": true,
+    "placeFirstProcedureParameterOnNewLine": "always",
+    "collapseShortStatements": true,
+    "collapseStatementsShorterThan": 75
+  },
+  "controlFlow": {
+    "collapseStatementsShorterThan": 78
+  },
+  "cte": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentContents": true
+  },
+  "joinStatements": {
+    "join": {
+      "indentJoinTable": false
+    }
+  },
+  "insertStatements": {
+    "columns": {
+      "parenthesisStyle": "compactToStatement",
+      "placeSubsequentColumnsOnNewLines": "never"
+    },
+    "values": {
+      "indentContents": true
+    }
+  },
+  "functionCalls": {
+    "placeArgumentsOnNewLines": "never",
+    "addSpacesAroundArgumentList": true
+  },
+  "caseExpressions": {
+    "placeExpressionOnNewLine": false,
+    "thenAlignment": "toWhenExpression",
+    "collapseShortCaseExpressions": true,
+    "collapseCaseExpressionsShorterThan": 85
+  },
+  "operators": {
+    "andOr": {},
+    "between": {
+      "placeOnNewLine": false,
+      "andAlignment": "rightAlignedToBetween"
+    },
+    "in": {
+      "placeFirstValueOnNewLine": "never",
+      "placeSubsequentValuesOnNewLines": "never",
+      "addSpaceAroundInContents": true
+    }
+  }
+}
