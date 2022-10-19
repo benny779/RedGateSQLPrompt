@@ -1,0 +1,6 @@
+{
+  "id": "2b98a19b-7cb3-4d36-b535-dd1317b379f9",
+  "prefix": "sxa",
+  "description": "Change the current XACT_ABORT setting",
+  "body": "SET XACT_ABORT OFF"
+}

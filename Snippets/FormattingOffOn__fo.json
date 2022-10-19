@@ -1,0 +1,6 @@
+{
+  "id": "f16b6dd8-9c2e-4a6f-951b-9c6d809c490e",
+  "prefix": "fo",
+  "description": "SQL Prompt formatting off on block",
+  "body": "-- SQL Prompt formatting off\r\n\t$SELECTEDTEXT$$CURSOR$\r\n-- SQL Prompt formatting on"
+}

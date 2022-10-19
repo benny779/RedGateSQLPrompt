@@ -1,0 +1,6 @@
+{
+  "id": "614bbeb2-b3db-426c-b0cb-7b5a37565d11",
+  "prefix": "דכ",
+  "description": "SELECT * FROM fragment",
+  "body": "SELECT * \r\nFROM "
+}

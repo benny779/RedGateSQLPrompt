@@ -1,0 +1,6 @@
+{
+  "id": "72d40e7b-af6b-4976-bdc9-a55641d0f40c",
+  "prefix": "cd",
+  "description": "current Date Without Time",
+  "body": "DATEADD( DAY, DATEDIFF( DAY, 0, GETDATE()), 0 )"
+}

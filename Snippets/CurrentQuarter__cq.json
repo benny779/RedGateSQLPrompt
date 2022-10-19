@@ -1,0 +1,6 @@
+{
+  "id": "eebe8409-9919-4a45-a4b5-51cf35f5df68",
+  "prefix": "cq",
+  "description": "current Quarter without time",
+  "body": "DATEADD( qq, DATEDIFF( qq, 0, GETDATE()), 0 )"
+}

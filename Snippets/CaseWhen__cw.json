@@ -1,0 +1,24 @@
+{
+  "id": "8a2923d4-cd70-4cb0-b1d3-165daebbbc86",
+  "prefix": "cw",
+  "description": "CASE WHEN",
+  "body": "CASE $c$ WHEN $1$ THEN $2$\r\nELSE $e$ END",
+  "placeholders": [
+    {
+      "name": "c",
+      "defaultValue": " "
+    },
+    {
+      "name": "1",
+      "defaultValue": ""
+    },
+    {
+      "name": "2",
+      "defaultValue": ""
+    },
+    {
+      "name": "e",
+      "defaultValue": "NULL"
+    }
+  ]
+}

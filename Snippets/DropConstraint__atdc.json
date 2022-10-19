@@ -1,0 +1,12 @@
+{
+  "id": "9066d10e-4c70-44f7-93ea-cd488811aeeb",
+  "prefix": "atdc",
+  "description": "Drop constraint",
+  "body": "ALTER TABLE $table_name$ DROP CONSTRAINT ",
+  "placeholders": [
+    {
+      "name": "table_name",
+      "defaultValue": "[schema].[table_name]"
+    }
+  ]
+}

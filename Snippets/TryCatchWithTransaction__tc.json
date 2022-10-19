@@ -1,0 +1,12 @@
+{
+  "id": "7924ea25-098c-46d8-a6f9-44c5304139d3",
+  "prefix": "tc",
+  "description": "TRY ... CATCH fragment With Transaction",
+  "body": "DECLARE @tranCount int\n\nBEGIN TRY\n\tSET @tranCount = @@TRANCOUNT\n\tIF @tranCount = 0\n\t\tBEGIN TRANSACTION $name$\n\n\t/*------------------------------------------------------------------------------------------------*/\n\n\t$SELECTEDTEXT$\n\n\t/*------------------------------------------------------------------------------------------------*/\n\tIF @tranCount = 0\n\t\tCOMMIT TRANSACTION $name$\nEND TRY\nBEGIN CATCH\n\t-- RAISERROR with severity 11-19 will cause execution to jump to the CATCH block.  \n\tDECLARE @message varchar(500), @errSeverity tinyint, @errState tinyint\n\tSELECT\t@message = ERROR_MESSAGE(), @errSeverity = ERROR_SEVERITY(), @errState = ERROR_STATE()\n\n\tIF (XACT_STATE()) <> 0\n\tBEGIN\n\t\tIF\t@tranCount = 0\n\t\t\tROLLBACK TRANSACTION $name$\n\t\tELSE\n\t\t\tROLLBACK TRANSACTION\n\tEND\n\n\tRAISERROR ( @message, @errSeverity, @errState )\nEND CATCH",
+  "placeholders": [
+    {
+      "name": "name",
+      "defaultValue": "myTran"
+    }
+  ]
+}

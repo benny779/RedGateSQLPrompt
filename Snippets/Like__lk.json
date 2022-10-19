@@ -1,0 +1,6 @@
+{
+  "id": "c9296cb4-d32f-400f-9bae-f340d89a58d5",
+  "prefix": "lk",
+  "description": "LIKE",
+  "body": "LIKE '%$SELECTEDTEXT$$CURSOR$%'"
+}

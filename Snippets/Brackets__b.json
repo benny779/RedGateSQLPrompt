@@ -1,0 +1,6 @@
+{
+  "id": "1c54d850-1641-4a7f-9f68-ce200d76dbaa",
+  "prefix": "b",
+  "description": "wrap with brackets",
+  "body": "($SELECTEDTEXT$)"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bf990e43-e6b5-4364-a176-280c1cc06d0d",
+  "prefix": "bi",
+  "description": "BULK INSERT (from file)",
+  "body": "BULK INSERT $table$\r\nFROM '$file_path$'\r\nWITH\r\n(\r\n\tFIELDTERMINATOR = '$field_delimiter$', ROWTERMINATOR = '$row_delimiter$', FIRSTROW = $first_row$\r\n)",
+  "placeholders": [
+    {
+      "name": "table",
+      "defaultValue": "[schema].[table_name]"
+    },
+    {
+      "name": "file_path",
+      "defaultValue": null
+    },
+    {
+      "name": "field_delimiter",
+      "defaultValue": ","
+    },
+    {
+      "name": "row_delimiter",
+      "defaultValue": "\\n"
+    },
+    {
+      "name": "first_row",
+      "defaultValue": "2"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "396ad3b6-061a-4784-bc64-f82972e9d01c",
+  "prefix": "nif",
+  "description": "NULLIF",
+  "body": "NULLIF( $SELECTEDTEXT$, $value$) ",
+  "placeholders": [
+    {
+      "name": "value",
+      "defaultValue": "''"
+    }
+  ]
+}

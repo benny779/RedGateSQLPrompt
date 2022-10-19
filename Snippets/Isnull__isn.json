@@ -1,0 +1,12 @@
+{
+  "id": "79074f7b-1d9d-4952-b580-e51d57589d1b",
+  "prefix": "isn",
+  "description": "ISNULL",
+  "body": "ISNULL( $SELECTEDTEXT$, $value$) ",
+  "placeholders": [
+    {
+      "name": "value",
+      "defaultValue": "0"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "65ab600c-f5e6-48c2-be13-83f1ffd78883",
+  "prefix": "q",
+  "description": "wrap with a single quote",
+  "body": "'$SELECTEDTEXT$'"
+}

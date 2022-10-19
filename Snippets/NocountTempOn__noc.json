@@ -1,0 +1,6 @@
+{
+  "id": "a4aac5b6-4494-4c6c-aaad-6a44328c2bb9",
+  "prefix": "noc",
+  "description": "temporarily change NOCOUNT ON",
+  "body": "DECLARE @noCount varchar(3) = 'OFF'\r\nIF ((512 & @@OPTIONS) = 512)\r\n\tSET @noCount = 'ON'\r\nELSE\r\n\tSET NOCOUNT ON\r\n\r\n$SELECTEDTEXT$\r\n\r\nIF @noCount = 'OFF'\r\n\tSET NOCOUNT OFF"
+}

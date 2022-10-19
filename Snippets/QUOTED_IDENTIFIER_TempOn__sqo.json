@@ -1,0 +1,6 @@
+{
+  "id": "81db1c1e-a85d-4088-a144-41f6b4714e62",
+  "prefix": "sqo",
+  "description": "Change QUOTED_IDENTIFIER to ON temporarily",
+  "body": "DECLARE @orgQuotedIdentifier varchar(3) = 'OFF'\r\n\r\nIF(( 256 & @@OPTIONS ) = 256 )\r\n\tSET @orgQuotedIdentifier = 'ON'\r\nELSE\r\n\tSET QUOTED_IDENTIFIER ON\r\n\t\r\n\t\r\n\t$SELECTEDTEXT$$CURSOR$\r\n\t\r\n\r\nIF @orgQuotedIdentifier = 'OFF'\r\n\tSET QUOTED_IDENTIFIER OFF"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "3928ae6b-45f9-450f-b032-a7ec3e7a9117",
+  "prefix": "st",
+  "description": "SELECT top X rows",
+  "body": "SELECT TOP ($x$) *\r\nFROM $CURSOR$",
+  "placeholders": [
+    {
+      "name": "x",
+      "defaultValue": "50"
+    }
+  ]
+}

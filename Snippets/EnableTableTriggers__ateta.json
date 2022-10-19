@@ -1,0 +1,6 @@
+{
+  "id": "ccc51840-6b5a-43a1-8880-d3f3d4aa3f36",
+  "prefix": "ateta",
+  "description": "Enable all triggers on table",
+  "body": "ALTER TABLE $SELECTIONEND$[schema].[table_name]$SELECTIONSTART$ ENABLE TRIGGER ALL"
+}

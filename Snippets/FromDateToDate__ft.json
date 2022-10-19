@@ -1,0 +1,6 @@
+{
+  "id": "0e89c2fb-1395-45c4-8e86-303b548748a4",
+  "prefix": "ft",
+  "description": "From Date To Date",
+  "body": "DECLARE @from datetime, @to datetime\n\nSELECT @from = '$DATE(yyyy-MM-dd)$', @to = '$DATE(yyyy-MM-dd)$ 23:59'"
+}

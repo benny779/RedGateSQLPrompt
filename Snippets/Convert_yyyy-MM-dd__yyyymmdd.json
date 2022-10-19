@@ -1,0 +1,6 @@
+{
+  "id": "a55da4fb-49ad-4a80-b69b-97c43a9ad24f",
+  "prefix": "yyyymmdd",
+  "description": "Convert to yyyy-MM-dd",
+  "body": "CONVERT( varchar(10), $SELECTEDTEXT$$CURSOR$, 120 )"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "3928ae6b-45f9-450f-b032-a7ec3e7a9117",
+  "prefix": "st100",
+  "description": "SELECT top 100 rows",
+  "body": "SELECT TOP (100) *\r\nFROM "
+}

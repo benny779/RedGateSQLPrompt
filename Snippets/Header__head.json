@@ -1,0 +1,16 @@
+{
+  "id": "51d9f754-3c8c-455d-bbef-2187ce000c20",
+  "prefix": "head",
+  "description": "Header",
+  "body": "/* ============================================================ */\r\n/*   name       : $name$                            \t*/\r\n/*   subject    : $subject$\t\t\t\t\t\t  \t\t*/\r\n/*   create date: $DATE$                                    */\r\n/*   update date: $DATE$                                    */\r\n/*   author     : $USER$\t                                */\r\n/* ============================================================ */",
+  "placeholders": [
+    {
+      "name": "name",
+      "defaultValue": null
+    },
+    {
+      "name": "subject",
+      "defaultValue": null
+    }
+  ]
+}

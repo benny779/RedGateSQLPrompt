@@ -1,0 +1,6 @@
+{
+  "id": "ed1b2f4f-cf09-4374-8825-64dd79ba5b9d",
+  "prefix": "kill",
+  "description": "kill locks",
+  "body": "SELECT  'kill ' + CAST(dtst.session_id AS varchar(5)) + ';' AS c_kill ,\r\n        deco.host_name , deco.login_name , deco.status , deco.login_time ,\r\n        deco.last_request_start_time , dtat.transaction_id , dtat.name ,\r\n        dtat.transaction_begin_time , dtst.session_id ,\r\n        dtst.is_user_transaction\r\nFROM    sys.dm_tran_active_transactions AS dtat\r\n        INNER JOIN sys.dm_tran_session_transactions AS dtst\r\n        ON dtat.transaction_id = dtst.transaction_id\r\n        INNER JOIN sys.dm_exec_sessions AS deco\r\n        ON dtst.session_id = deco.session_id"
+}

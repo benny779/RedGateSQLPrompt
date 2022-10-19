@@ -1,0 +1,6 @@
+{
+  "id": "69774055-4d08-457b-849f-f60b2ba3174e",
+  "prefix": "cm",
+  "description": "current Month without time",
+  "body": "DATEADD( mm, DATEDIFF( mm, 0, GETDATE()), 0 )"
+}

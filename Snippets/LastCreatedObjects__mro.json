@@ -1,0 +1,12 @@
+{
+  "id": "9b567826-b1bd-4f71-9add-325a756d594a",
+  "prefix": "mro",
+  "description": "Retrieve 20 most recently created objects",
+  "body": "-- NOTE: 'sys.objects'/'create_date' is only available in SQL Server 2005+. Replace with 'sysobjects'/'crdate' in SQL Server 2000.\r\nSELECT\tTOP ($count$) name, type, create_date\r\nFROM\tsys.objects\r\nORDER BY create_date DESC",
+  "placeholders": [
+    {
+      "name": "count",
+      "defaultValue": "20"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "f3272bc8-89a7-4713-ae9f-3a862ef1d39f",
+  "prefix": "err",
+  "description": "@@ERROR function call",
+  "body": "@@ERROR"
+}

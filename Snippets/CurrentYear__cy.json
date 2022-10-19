@@ -1,0 +1,6 @@
+{
+  "id": "07213d91-a310-4f15-be3c-ce26647a4369",
+  "prefix": "cy",
+  "description": "current Year without time",
+  "body": "DATEADD( yy, DATEDIFF( yy, 0, GETDATE()), 0 )"
+}

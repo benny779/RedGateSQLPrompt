@@ -1,0 +1,12 @@
+{
+  "id": "3f7ba47a-a104-40aa-8175-bc9dee02bc23",
+  "prefix": "row",
+  "description": "ROW_NUMBER()",
+  "body": "ROW_NUMBER() OVER ($par$ORDER BY $CURSOR$)",
+  "placeholders": [
+    {
+      "name": "par",
+      "defaultValue": "PARTITION BY [col] "
+    }
+  ]
+}

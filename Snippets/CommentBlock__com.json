@@ -1,0 +1,6 @@
+{
+  "id": "496cde3a-f923-4e96-8ede-019b0061ef43",
+  "prefix": "com",
+  "description": "Comment block",
+  "body": "/*\r\n$SELECTEDTEXT$$CURSOR$\r\n*/"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "c630dbde-d7a4-4223-aee4-d54269baba6e",
+  "prefix": "df",
+  "description": "DELETE FROM fragment",
+  "body": "DELETE FROM $table_name$ WHERE $CURSOR$",
+  "placeholders": [
+    {
+      "name": "table_name",
+      "defaultValue": "[schema].[table_name]"
+    }
+  ]
+}
