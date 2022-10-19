@@ -1,2 +1,2 @@
-# RedGateSnippets
-My RedGate snippets
+# RedGate Snippets
+My RedGate snippets.
