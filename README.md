@@ -1,2 +1,2 @@
-# RedGate Snippets
-My RedGate snippets.
+# RedGate SQLprompt Snippets
+My RedGate SQLprompt snippets.
