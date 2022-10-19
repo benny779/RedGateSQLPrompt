@@ -1,0 +1,2 @@
+# RedGateSnippets
+My RedGate snippets
